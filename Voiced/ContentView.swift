@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Voiced 1.0")
+//            trying to get the app to be seen in the repo
+            
         }
         .padding()
     }
