@@ -9,7 +9,8 @@ import SwiftUI
 import MapKit
 import CoreLocation
 
-
+// Coordinates to the back of the yards from APPLE MAPS
+// 41.808709, -87.655686
 
 struct number1: View {
     @State private var region =
