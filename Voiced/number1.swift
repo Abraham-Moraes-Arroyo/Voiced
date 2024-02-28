@@ -1,26 +1,28 @@
 //
-//  number1.swift
-//  Voiced
+//  ContentView.swift
+//  UserLocationOnMap
 //
 //  Created by Abraham Morales Arroyo on 2/28/24.
 //
 
 import SwiftUI
 import MapKit
-import CoreLocation
-
-// Coordinates to the back of the yards from APPLE MAPS
-// 41.808709, -87.655686
 
 struct number1: View {
-    @State private var region =
-    MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.808709, longitude: -87.655686), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
+    
+    @State private var position: MapCameraPosition = .userLocation(fallback: .automatic)
+    
     var body: some View {
-        ZStack{
-            VStack{
-                Map(coordinateRegion: $region).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            }
-            // end of map
+        Map(position: $position) {
+            
+            
+        }
+        .mapControls {
+            MapUserLocationButton()
+            MapPitchToggle()
+        }
+        .onAppear(){
+            CLLocationManager().requestWhenInUseAuthorization()
         }
     }
 }
@@ -28,3 +30,4 @@ struct number1: View {
 #Preview {
     number1()
 }
+//to change the locaiton of the map you are going to need the simulator running and once in the simulator got to the features tab and click on location.
