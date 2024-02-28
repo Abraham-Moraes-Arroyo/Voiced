@@ -9,15 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Voiced 1.0")
-//            trying to get the app to be seen in the repo
-            
+        TabView{
+            number1()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+            number2()
+                 .tabItem {
+                     Image(systemName: "map")
+                     Text("Tours")
+                 }
+            number3()
+                .tabItem {
+                    Image(systemName: "info.circle")
+                    Text("Help")
+                }
+           
+      
         }
-        .padding()
     }
 }
 
