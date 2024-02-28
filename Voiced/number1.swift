@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct number1: View {
-    
+    // gets the user's location and displays it on the map
     @State private var position: MapCameraPosition = .userLocation(fallback: .automatic)
     
     var body: some View {
