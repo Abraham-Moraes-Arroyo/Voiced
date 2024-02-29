@@ -23,6 +23,7 @@
 		8513D37A2B8FF84B00D2B718 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D3792B8FF84B00D2B718 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		8513D37C2B8FF84B00D2B718 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D37B2B8FF84B00D2B718 /* FirebaseAppCheck */; };
 		8513D3812B9000C200D2B718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8513D3802B9000C200D2B718 /* GoogleService-Info.plist */; };
+		8513D3852B90C51B00D2B718 /* locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D3842B90C51B00D2B718 /* locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8513D3342B8FA54B00D2B718 /* number2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number2.swift; sourceTree = "<group>"; };
 		8513D3362B8FA55100D2B718 /* number3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number3.swift; sourceTree = "<group>"; };
 		8513D3802B9000C200D2B718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8513D3842B90C51B00D2B718 /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				8512E06D2B8EA74400177185 /* VoicedApp.swift */,
 				8512E06F2B8EA74400177185 /* ContentView.swift */,
+				8513D3842B90C51B00D2B718 /* locations.swift */,
 				8513D3322B8FA54700D2B718 /* number1.swift */,
 				8513D3342B8FA54B00D2B718 /* number2.swift */,
 				8513D3362B8FA55100D2B718 /* number3.swift */,
@@ -294,6 +297,7 @@
 				8512E0702B8EA74400177185 /* ContentView.swift in Sources */,
 				8512E06E2B8EA74400177185 /* VoicedApp.swift in Sources */,
 				8513D3372B8FA55100D2B718 /* number3.swift in Sources */,
+				8513D3852B90C51B00D2B718 /* locations.swift in Sources */,
 				8513D3352B8FA54B00D2B718 /* number2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
