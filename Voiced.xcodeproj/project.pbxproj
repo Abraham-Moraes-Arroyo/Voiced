@@ -22,7 +22,7 @@
 		8513D3782B8FF84B00D2B718 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D3772B8FF84B00D2B718 /* FirebaseAnalyticsSwift */; };
 		8513D37A2B8FF84B00D2B718 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D3792B8FF84B00D2B718 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		8513D37C2B8FF84B00D2B718 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D37B2B8FF84B00D2B718 /* FirebaseAppCheck */; };
-		8513D37E2B8FFC9E00D2B718 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8513D37D2B8FFC9E00D2B718 /* GoogleService-Info-3.plist */; };
+		8513D3812B9000C200D2B718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8513D3802B9000C200D2B718 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		8513D3322B8FA54700D2B718 /* number1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number1.swift; sourceTree = "<group>"; };
 		8513D3342B8FA54B00D2B718 /* number2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number2.swift; sourceTree = "<group>"; };
 		8513D3362B8FA55100D2B718 /* number3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = number3.swift; sourceTree = "<group>"; };
-		8513D37D2B8FFC9E00D2B718 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		8513D3802B9000C200D2B718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				8513D3322B8FA54700D2B718 /* number1.swift */,
 				8513D3342B8FA54B00D2B718 /* number2.swift */,
 				8513D3362B8FA55100D2B718 /* number3.swift */,
-				8513D37D2B8FFC9E00D2B718 /* GoogleService-Info-3.plist */,
+				8513D3802B9000C200D2B718 /* GoogleService-Info.plist */,
 				8512E0712B8EA74700177185 /* Assets.xcassets */,
 				8512E0732B8EA74700177185 /* Preview Content */,
 			);
@@ -264,8 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8512E0752B8EA74700177185 /* Preview Assets.xcassets in Resources */,
-				8513D37E2B8FFC9E00D2B718 /* GoogleService-Info-3.plist in Resources */,
 				8512E0722B8EA74700177185 /* Assets.xcassets in Resources */,
+				8513D3812B9000C200D2B718 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
