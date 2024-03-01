@@ -28,11 +28,15 @@ struct number1: View {
     }
 }
 
-struct number1_Previews: PreviewProvider {
-    static var previews: some View {
-        number1()
-    }
+#Preview {
+    number1()
 }
+
+//struct number1_Previews: PreviewProvider {
+//    static var previews: some View {
+//        number1()
+//    }
+//}
 //to change the locaiton of the map you are going to need the simulator running and once in the simulator got to the features tab and click on location.
 
 //

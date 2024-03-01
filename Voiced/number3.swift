@@ -13,8 +13,11 @@ struct number3: View {
     }
 }
 
-struct number3_Previews: PreviewProvider {
-    static var previews: some View {
-        number3()
-    }
+#Preview {
+    number3()
 }
+//struct number3_Previews: PreviewProvider {
+//    static var previews: some View {
+//        number3()
+//    }
+//}
