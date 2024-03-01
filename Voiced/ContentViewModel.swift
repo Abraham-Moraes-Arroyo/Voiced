@@ -40,7 +40,7 @@ class ContentViewModel:ObservableObject{
         
         
         do{
-            //Restuarunt to add....
+            // Devin siad that we will be adding the data 
             let rToAdd = [
                 "New Restaurant":dataToAdd,
                 "Resturant Locale": "Chicago"
