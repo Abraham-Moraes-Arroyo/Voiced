@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F47DEC52B902C2500387640 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47DEC42B902C2500387640 /* LoginView.swift */; };
+		3F47DEC72B9031E200387640 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47DEC62B9031E200387640 /* RegistrationView.swift */; };
+		3F47DECA2B9033B100387640 /* VoicedTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47DEC92B9033B100387640 /* VoicedTextFieldModifier.swift */; };
+		3F47DECF2B90364900387640 /* VoicedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F47DECE2B90364900387640 /* VoicedTabView.swift */; };
 		8512E06E2B8EA74400177185 /* VoicedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8512E06D2B8EA74400177185 /* VoicedApp.swift */; };
 		8512E0702B8EA74400177185 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8512E06F2B8EA74400177185 /* ContentView.swift */; };
 		8512E0722B8EA74700177185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8512E0712B8EA74700177185 /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F47DEC42B902C2500387640 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F47DEC62B9031E200387640 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		3F47DEC92B9033B100387640 /* VoicedTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicedTextFieldModifier.swift; sourceTree = "<group>"; };
+		3F47DECE2B90364900387640 /* VoicedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicedTabView.swift; sourceTree = "<group>"; };
 		8512E06A2B8EA74300177185 /* Voiced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voiced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8512E06D2B8EA74400177185 /* VoicedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicedApp.swift; sourceTree = "<group>"; };
 		8512E06F2B8EA74400177185 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F47DEBA2B902A7A00387640 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8512E06D2B8EA74400177185 /* VoicedApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F47DEBC2B902A8E00387640 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F47DEBD2B902A9600387640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F47DEBE2B902AAD00387640 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DEC82B90339000387640 /* ViewModifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3F47DEBF2B902ABC00387640 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F47DEC02B902AE700387640 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DEC12B902B4200387640 /* Authentication */,
+				3F47DEC22B902B5F00387640 /* Root */,
+				3F47DECB2B9035D000387640 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F47DEC12B902B4200387640 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DEC32B902BB800387640 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		3F47DEC22B902B5F00387640 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8512E06F2B8EA74400177185 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3F47DEC32B902BB800387640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DEC42B902C2500387640 /* LoginView.swift */,
+				3F47DEC62B9031E200387640 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F47DEC82B90339000387640 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DEC92B9033B100387640 /* VoicedTextFieldModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		3F47DECB2B9035D000387640 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F47DECE2B90364900387640 /* VoicedTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		8512E0612B8EA74300177185 = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +208,12 @@
 		8512E06C2B8EA74300177185 /* Voiced */ = {
 			isa = PBXGroup;
 			children = (
-				8512E06D2B8EA74400177185 /* VoicedApp.swift */,
-				8512E06F2B8EA74400177185 /* ContentView.swift */,
+				3F47DEBA2B902A7A00387640 /* App */,
+				3F47DEC02B902AE700387640 /* Core */,
+				3F47DEBC2B902A8E00387640 /* Extensions */,
+				3F47DEBD2B902A9600387640 /* Model */,
+				3F47DEBF2B902ABC00387640 /* Services */,
+				3F47DEBE2B902AAD00387640 /* Utils */,
 				8513D3322B8FA54700D2B718 /* number1.swift */,
 				8513D3342B8FA54B00D2B718 /* number2.swift */,
 				8513D3362B8FA55100D2B718 /* number3.swift */,
@@ -290,8 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F47DEC52B902C2500387640 /* LoginView.swift in Sources */,
 				8513D3332B8FA54700D2B718 /* number1.swift in Sources */,
+				3F47DECA2B9033B100387640 /* VoicedTextFieldModifier.swift in Sources */,
+				3F47DECF2B90364900387640 /* VoicedTabView.swift in Sources */,
 				8512E0702B8EA74400177185 /* ContentView.swift in Sources */,
+				3F47DEC72B9031E200387640 /* RegistrationView.swift in Sources */,
 				8512E06E2B8EA74400177185 /* VoicedApp.swift in Sources */,
 				8513D3372B8FA55100D2B718 /* number3.swift in Sources */,
 				8513D3352B8FA54B00D2B718 /* number2.swift in Sources */,
@@ -383,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -440,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -458,7 +562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Voiced/Preview Content\"";
-				DEVELOPMENT_TEAM = WHB97KRP2U;
+				DEVELOPMENT_TEAM = 2DN75KGK6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location when you are using the app.";
@@ -488,7 +592,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Voiced/Preview Content\"";
-				DEVELOPMENT_TEAM = WHB97KRP2U;
+				DEVELOPMENT_TEAM = 2DN75KGK6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location when you are using the app.";
