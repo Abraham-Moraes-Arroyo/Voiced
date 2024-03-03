@@ -14,7 +14,7 @@ import FirebaseFirestore
 struct Issuelocations: Decodable {
     var issuelocations: [location2]
     
-    enum CodingKeys: Stirng, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case issuelocations = "Issue Locations"
     }
 }
@@ -126,8 +126,8 @@ func geocodeLocation(address: String, completion: @escaping (CLLocationCoordinat
     }
 }
 
-struct PushtoFirebase_Previews: PreviewProvider {
+struct SendToFireBase_Previews: PreviewProvider {
     static var previews: some View {
-        PushtoFirebase()
+        SendToFireBase()
     }
 }

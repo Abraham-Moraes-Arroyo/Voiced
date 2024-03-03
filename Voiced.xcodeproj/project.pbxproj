@@ -29,6 +29,7 @@
 		8513D3922B91566C00D2B718 /* issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D3912B91566C00D2B718 /* issue.swift */; };
 		8513D3972B923AE000D2B718 /* SendToFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D3962B923AE000D2B718 /* SendToFireBase.swift */; };
 		8513D3992B94F5DF00D2B718 /* Issues_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8513D3982B94F5DF00D2B718 /* Issues_Locations.json */; };
+		8513D39B2B94F97300D2B718 /* PullFromFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D39A2B94F97300D2B718 /* PullFromFireBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		8513D3942B923A4700D2B718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8513D3962B923AE000D2B718 /* SendToFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendToFireBase.swift; sourceTree = "<group>"; };
 		8513D3982B94F5DF00D2B718 /* Issues_Locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Issues_Locations.json; sourceTree = "<group>"; };
+		8513D39A2B94F97300D2B718 /* PullFromFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullFromFireBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				8513D3862B91481500D2B718 /* ContentViewModel.swift */,
 				8513D3912B91566C00D2B718 /* issue.swift */,
 				8513D3962B923AE000D2B718 /* SendToFireBase.swift */,
+				8513D39A2B94F97300D2B718 /* PullFromFireBase.swift */,
 				8513D3982B94F5DF00D2B718 /* Issues_Locations.json */,
 			);
 			path = FIrebase;
@@ -345,6 +348,7 @@
 				8513D3852B90C51B00D2B718 /* locations.swift in Sources */,
 				8513D3352B8FA54B00D2B718 /* number2.swift in Sources */,
 				8513D3922B91566C00D2B718 /* issue.swift in Sources */,
+				8513D39B2B94F97300D2B718 /* PullFromFireBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
