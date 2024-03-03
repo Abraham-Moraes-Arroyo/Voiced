@@ -27,6 +27,8 @@
 		8513D38A2B914AFC00D2B718 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D3892B914AFC00D2B718 /* FirebaseFirestore */; };
 		8513D38C2B914B1F00D2B718 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8513D38B2B914B1F00D2B718 /* FirebaseFirestore */; };
 		8513D3922B91566C00D2B718 /* issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D3912B91566C00D2B718 /* issue.swift */; };
+		8513D3972B923AE000D2B718 /* SendToFireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513D3962B923AE000D2B718 /* SendToFireBase.swift */; };
+		8513D3992B94F5DF00D2B718 /* Issues_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8513D3982B94F5DF00D2B718 /* Issues_Locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		8513D3862B91481500D2B718 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		8513D3912B91566C00D2B718 /* issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issue.swift; sourceTree = "<group>"; };
 		8513D3942B923A4700D2B718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8513D3962B923AE000D2B718 /* SendToFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendToFireBase.swift; sourceTree = "<group>"; };
+		8513D3982B94F5DF00D2B718 /* Issues_Locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Issues_Locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,10 +171,12 @@
 		8513D3932B923A2E00D2B718 /* FIrebase */ = {
 			isa = PBXGroup;
 			children = (
+				8513D3842B90C51B00D2B718 /* locations.swift */,
+				8513D3942B923A4700D2B718 /* GoogleService-Info.plist */,
 				8513D3862B91481500D2B718 /* ContentViewModel.swift */,
 				8513D3912B91566C00D2B718 /* issue.swift */,
-				8513D3942B923A4700D2B718 /* GoogleService-Info.plist */,
-				8513D3842B90C51B00D2B718 /* locations.swift */,
+				8513D3962B923AE000D2B718 /* SendToFireBase.swift */,
+				8513D3982B94F5DF00D2B718 /* Issues_Locations.json */,
 			);
 			path = FIrebase;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8512E0752B8EA74700177185 /* Preview Assets.xcassets in Resources */,
+				8513D3992B94F5DF00D2B718 /* Issues_Locations.json in Resources */,
 				8512E0722B8EA74700177185 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +339,7 @@
 				8513D3332B8FA54700D2B718 /* number1.swift in Sources */,
 				8512E0702B8EA74400177185 /* ContentView.swift in Sources */,
 				8512E06E2B8EA74400177185 /* VoicedApp.swift in Sources */,
+				8513D3972B923AE000D2B718 /* SendToFireBase.swift in Sources */,
 				8513D3872B91481600D2B718 /* ContentViewModel.swift in Sources */,
 				8513D3372B8FA55100D2B718 /* number3.swift in Sources */,
 				8513D3852B90C51B00D2B718 /* locations.swift in Sources */,
