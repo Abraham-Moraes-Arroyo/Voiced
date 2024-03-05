@@ -16,8 +16,8 @@ struct PullFromFireBase: View {
         VStack{
             Text(textData)
         }.onAppear{
-            Task {
-                let firdata = await firebaseUtility.getDocumentFromFirebase(id: "")
+            Task {                                                              // change this when you have time the id: 
+                let firdata = await firebaseUtility.getDocumentFromFirebase(id: "voiced-b1f36")
                 
                 data = firdata
                 if let name = data["Name"] as? String,
