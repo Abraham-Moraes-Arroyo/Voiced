@@ -35,7 +35,7 @@ struct number1: View {
                     let newLocation = locations(id: UUID(), name: "New Location", description: "", latitude: coordinate.latitude, longitude: coordinate.longitude)
                     locationsS.append(newLocation)
                 }
-                
+                // we need to make a viewmodel for the firebase. Look up on what it is; should not be too difficult. to sum it up, its a class that attached to the virw where you make a state object and that view model controlls all the data for that view. Make it numbers1 Viewmodel. Make the class with the state object. Look at devins old firebase project. He has it as a observe model to a state object. from there we are going to have all the classes be in that file. 
             }
             .mapControls {
                 MapUserLocationButton()

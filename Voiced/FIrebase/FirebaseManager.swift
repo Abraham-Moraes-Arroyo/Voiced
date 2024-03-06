@@ -20,7 +20,10 @@ class FirebaseManager:ObservableObject{
         var data: [String: Any] = [:]
         do{                                                                 // Here     VVV  is where you are going to get document name
             let dataDoc:DocumentSnapshot = try await db.collection("Locations").document("").getDocument()
-            
+            // give an existing id CHeck the firebase documents, and Devin's code he has an example, check the documentations. check the documentation that he has at Mar 6th 4:17
+            // Move it to a view model.
+//            I am starting to make a viewmodel in File number 1.
+            // you may need viewmodel for the firebase. FOCUS:
             let documentData = dataDoc.data()
             
             data = documentData!
@@ -68,8 +71,8 @@ class FirebaseManager:ObservableObject{
         let newPoi = [
             "name": name,
             "category": category,
-            "longitude":(Double(long.replacingOccurrences(of: ",", with: "")) ?? 0.0) as Double,
-            "latitude":(Double(lat.replacingOccurrences(of: ",", with: "")) ?? 0.0) as Double
+            "longitude": Long,// change the long & lat to string
+            "latitude": lat
         ] as [String : Any]
         
         print(newPoi)

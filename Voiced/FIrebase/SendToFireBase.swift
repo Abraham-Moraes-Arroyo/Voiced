@@ -18,8 +18,8 @@ struct Issuelocations: Decodable {
         case issuelocations = "Issue Locations"
     }
 }
-
-
+// decides to use data elsewhere or in this functions
+// what we might want to do, have a view model  of the function of the file that we want to call this, have a view model to control the call to the firebase. Right now we are global. 
 struct SendToFireBase: view{
     var body: some View{
         VStack{
