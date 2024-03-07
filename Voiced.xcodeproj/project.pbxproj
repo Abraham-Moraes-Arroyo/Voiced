@@ -67,7 +67,6 @@
 		8513D3842B90C51B00D2B718 /* locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locations.swift; sourceTree = "<group>"; };
 		8513D3862B91481500D2B718 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		8513D3912B91566C00D2B718 /* issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = issue.swift; sourceTree = "<group>"; };
-		8513D3942B923A4700D2B718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8513D3962B923AE000D2B718 /* SendToFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendToFireBase.swift; sourceTree = "<group>"; };
 		8513D3982B94F5DF00D2B718 /* Issues_Locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Issues_Locations.json; sourceTree = "<group>"; };
 		8513D39A2B94F97300D2B718 /* PullFromFireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullFromFireBase.swift; sourceTree = "<group>"; };
@@ -176,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				8513D3842B90C51B00D2B718 /* locations.swift */,
-				8513D3942B923A4700D2B718 /* GoogleService-Info.plist */,
 				8513D3862B91481500D2B718 /* ContentViewModel.swift */,
 				8513D3912B91566C00D2B718 /* issue.swift */,
 				8513D3962B923AE000D2B718 /* SendToFireBase.swift */,
