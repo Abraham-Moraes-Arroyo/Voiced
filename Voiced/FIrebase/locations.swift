@@ -1,17 +1,17 @@
-////
-////  locations.swift
-////  UserLocationOnMap
-////
-////  Created by Abraham Morales Arroyo on 2/29/24.
-////
 //
-//import Foundation
+//  locations.swift
+//  UserLocationOnMap
 //
+//  Created by Abraham Morales Arroyo on 2/29/24.
 //
-//struct locations: Codable, Equatable, Identifiable{
-//    let id: UUID
-//    var name: String
-//    var description: String
-//    var latitude: Double
-//    var longitude: Double
-//}
+
+import Foundation
+
+
+struct locations: Codable, Equatable, Identifiable{
+    let id: UUID
+    var name: String
+    var description: String
+    var latitude: Double
+    var longitude: Double
+}
